@@ -1,0 +1,29 @@
+@import "../../styles/import";
+
+.search_box {
+  margin: 1rem;
+  margin-top: 0;
+  padding: 1.25rem 1rem;
+  background: $white;
+  border-radius: $borderRadius;
+}
+
+.root_gap {
+  padding-bottom: 1rem;
+  gap: 0.5rem !important;
+  border-bottom: 1px solid $gray;
+}
+
+.departure_date {
+  padding: 1rem 0 1.25rem 0;
+}
+
+.passenger_count{
+  margin-top: 0.5rem;
+  @include flex(row, start, center, none, 0.5rem);
+}
+
+.input_place {
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
